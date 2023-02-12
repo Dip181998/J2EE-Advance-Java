@@ -1,0 +1,47 @@
+package com.jspiders.designpattern.main;
+
+import java.util.Scanner;
+
+import com.jspiders.designpattern.operation.CheckBalance;
+import com.jspiders.designpattern.operation.Deposit;
+import com.jspiders.designpattern.operation.Withdraw;
+
+public class BankMain {
+	static boolean loop = true;
+
+	public static void main(String[] args) {
+		while (loop) {
+
+			System.out.println("------Choose Transection------");
+			System.out.println("1.Deposit\n" + "2.Withdraw\n" + "3.CheckBalance\n" + "4.Exit");
+			Scanner scanner = new Scanner(System.in);
+			int choice = scanner.nextInt();
+			switch (choice) {
+			case 1:
+				System.out.println("Enter amount ");
+				new Deposit(scanner.nextDouble());
+
+				break;
+			case 2:
+				System.out.println("Enter amount ");
+				new Withdraw(scanner.nextDouble());
+
+				break;
+			case 3:
+				CheckBalance balance = new CheckBalance();
+				System.out.println("Available Balance  :- " + balance.checkBalance()+"\n");
+				break;
+
+			case 4:
+				System.out.println("Thank You");
+				scanner.close();
+				loop = false;
+				break;
+
+			default:
+				System.out.println("invalid input");
+				break;
+			}
+		}
+	}
+}

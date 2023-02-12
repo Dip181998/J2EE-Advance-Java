@@ -1,0 +1,18 @@
+package com.jspiders.designpattern.operation;
+
+import com.jspiders.designpattern.account.Account;
+
+public class Deposit {
+
+	
+
+	public double deposit(double amount) {
+		
+		System.out.println(amount + " Succeccfully Deposite\n");
+		Account.getObject().accountBalance += amount;
+		
+		return Account.getObject().accountBalance;
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.jspiders.designpattern.operation;
+
+public class CheckBalance {
+
+	public void checkBalance(double amount) {
+		
+		
+	}
+
+}

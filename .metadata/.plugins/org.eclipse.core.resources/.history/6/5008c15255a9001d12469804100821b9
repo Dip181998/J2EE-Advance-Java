@@ -1,0 +1,18 @@
+package com.jspiders.designpattern.main;
+
+import com.jspiders.designpattern.account.Account;
+
+public class BankMain {
+	public static void main(String[] args) {
+		test();
+	}
+
+	private static void test() {
+		Account account= new Account();
+		System.out.println(account);
+		System.out.println("------Choose Transection------");
+		System.out.println("1.Deposit\n" + "2.Withdraw\n" + "3.CheckBalance\n" + "4.Exit");
+		
+	}
+
+}

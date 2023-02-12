@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="com.jspider.multithreading.thread.MyThread1"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.jspider.multithreading.thread.MyThread3"/>
+    <fullyQualifiedTypeName name="com.jspider.multithreading.thread.MyThread2"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthPopupMenuUI"/>
+    <fullyQualifiedTypeName name="com.jspider.multithreading.thread.Mythead"/>
+    <fullyQualifiedTypeName name="com.jspiders.mobileshop.Mobile"/>
+    <fullyQualifiedTypeName name="com.jspiders.mobileshop.object.OnePlus"/>
+    <fullyQualifiedTypeName name="com.jspiders.mobileshop.object.Samsung"/>
+    <fullyQualifiedTypeName name="com.jspiders.mobileshop.object.Realme"/>
+    <fullyQualifiedTypeName name="com.jspiders.mobileshop.object.Iphone"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.beans.beancontext.BeanContextMembershipListener"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+    <fullyQualifiedTypeName name="java.security.PrivateKey"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory.beverage.Beverage"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
+    <fullyQualifiedTypeName name="com.jspiders.bank.account.Account"/>
+    <fullyQualifiedTypeName name="com.jspiders.desingpatter.account.Account"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.jspiders.designpattern.operation.Withdraw"/>
+    <fullyQualifiedTypeName name="com.jspiders.designpattern.operation.CheckBalance"/>
+    <fullyQualifiedTypeName name="com.jspiders.designpattern.operation.Deposit"/>
+    <fullyQualifiedTypeName name="com.jspiders.designpattern.account.Account"/>
+</qualifiedTypeNameHistroy>

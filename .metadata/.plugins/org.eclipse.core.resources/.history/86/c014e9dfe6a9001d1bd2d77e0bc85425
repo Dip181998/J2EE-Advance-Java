@@ -1,0 +1,15 @@
+package com.jspiders.designpattern.operation;
+
+import com.jspiders.designpattern.account.Account;
+
+public class Deposit {
+
+	Account account= Account.getObject();
+	public void Deposit(double amount) {
+		System.out.println("deposit amount "+ amount + " in the bank");
+		account.accountBalance += amount;
+		System.out.println("total accountbalace :"+ account.accountBalance);
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.jspiders.designpattern.operation;
+
+import com.jspiders.designpattern.account.Account;
+
+public class CheckBalance {
+
+	
+
+	public double checkBalance() {
+		return Account.getObject().accountBalance;
+	}
+
+}

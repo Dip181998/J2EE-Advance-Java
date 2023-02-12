@@ -1,0 +1,5 @@
+package com.jspiders.designpattern.operation;
+
+public class Deposit {
+
+}

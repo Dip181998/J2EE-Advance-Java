@@ -1,0 +1,19 @@
+package com.jspiders.designpattern.account;
+
+public class Account {
+	static Account account;
+	public double accountBalance = 10000;
+
+	private Account() {
+
+	}
+
+	public static Account getObject() {
+		if (account == null) {
+			Account account = new Account();
+			return account;
+		}
+		return account;
+	}
+
+}
